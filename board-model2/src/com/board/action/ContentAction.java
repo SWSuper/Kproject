@@ -13,7 +13,7 @@ public class ContentAction implements CommandAction {
 			HttpServletResponse response) throws Throwable {
 		// TODO Auto-generated method stub		
 		request.setCharacterEncoding("utf-8");
-		System.out.println("123");
+		System.out.println("1234");
 		int board_seq = Integer.parseInt(request.getParameter("board_seq"));
 		Board article = BoardMyBatisDao.getInstance().getArticle(board_seq);
 
